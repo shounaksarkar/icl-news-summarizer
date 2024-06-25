@@ -1,5 +1,4 @@
 import streamlit as st
-from IPython.display import Markdown
 from langchain_groq import ChatGroq
 
 #First let's create summaries of Three articles which we will use for in-context learning later in our summarization part.
