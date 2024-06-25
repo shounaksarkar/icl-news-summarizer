@@ -203,6 +203,8 @@ def personalised_summarize(article):
     response = llm.invoke(prompt)
     return response.content
 
+st.set_page_config(page_title='News Summarizer', page_icon='📚')
+
 # Streamlit app
 def main():
     st.title('News Article Summarizer')
